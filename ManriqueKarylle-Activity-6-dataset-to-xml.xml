@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE response [
+<!ELEMENT response (row)>
+<!ELEMENT sequence (date, sp500, dividend, earnings, consumer_price_index, long_interest_rate, real_price, real_dividend, real_earnings, pe10)>
+
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT sp500 (#PCDATA)>
+<!ELEMENT dividend (#PCDATA)>
+<!ELEMENT earnings (#PCDATA)>
+<!ELEMENT consumer_price_index (#PCDATA)>
+<!ELEMENT long_interest_rate (#PCDATA)>
+<!ELEMENT real_price (#PCDATA)>
+<!ELEMENT real_dividend (#PCDATA)>
+<!ELEMENT real_earnings (#PCDATA)>
+<!ELEMENT pe10 (#PCDATA)>
+
+<!ATTLIST sequence row CDATA #REQUIRED>
+
+]>
+
+<response> <row>
+<row _id="row 1">
+<date> 1881-01-01 </date> <sp500> 6.19 </sp500> <dividend> 0.27 </dividend> <earnings>0.49</earnings> <consumer_price_index> 9.42 </consumer_price_index> <long_interest_rate> 3.7 </long_interest_rate> <real_price> 164.18 </real_price> <real_dividend> 7.03 </real_dividend> <real_earnings> 12.89 </real_earnings> <pe10> 18.47 </pe10> </row>
+<row _id="row 2">
+<date> 1881-02-01 </date> <sp500> 6.17 </sp500> <dividend> 0.27 </dividend> <earnings>0.48</earnings> <consumer_price_index> 9.51 </consumer_price_index> <long_interest_rate> 3.69 </long_interest_rate> <real_price> 162.01 </real_price> <real_dividend> 7.09 </real_dividend> <real_earnings> 12.65 </real_earnings> <pe10> 18.15 </pe10> </row>
+<row _id="row 3">
+<date> 1881-03-01 </date> <sp500> 6.24 </sp500> <dividend> 0.28 </dividend> <earnings>0.48</earnings> <consumer_price_index> 9.51 </consumer_price_index> <long_interest_rate> 3.69 </long_interest_rate> <real_price> 163.85 </real_price> <real_dividend> 7.22 </real_dividend> <real_earnings> 12.54 </real_earnings> <pe10> 18.27 </pe10> </row>
+<row _id="row 4">
+<date> 1881-04-01 </date> <sp500> 6.22 </sp500> <dividend> 0.28 </dividend> <earnings>0.47</earnings> <consumer_price_index> 9.61 </consumer_price_index> <long_interest_rate> 3.68 </long_interest_rate> <real_price> 161.71 </real_price> <real_dividend> 7.28 </real_dividend> <real_earnings> 12.31 </real_earnings> <pe10> 17.95 </pe10> </row>
+<row _id="row 5">
+<date> 1881-05-01 </date> <sp500> 6.5 </sp500> <dividend> 0.28 </dividend> <earnings>0.47</earnings> <consumer_price_index> 9.51 </consumer_price_index> <long_interest_rate> 3.67 </long_interest_rate> <real_price> 170.68 </real_price> <real_dividend> 7.48 </real_dividend> <real_earnings> 12.32 </real_earnings> <pe10> 18.87 </pe10> </row>
+<row _id="row 6">
+<date> 1881-06-01 </date> <sp500> 6.58 </sp500> <dividend> 0.29 </dividend> <earnings>0.47</earnings> <consumer_price_index> 9.51 </consumer_price_index> <long_interest_rate> 3.67 </long_interest_rate> <real_price> 172.78 </real_price> <real_dividend> 7.61 </real_dividend> <real_earnings> 12.21 </real_earnings> <pe10> 19.03 </pe10> </row>
+<row _id="row 7">
+<date> 1881-07-01 </date> <sp500> 6.35 </sp500> <dividend> 0.29 </dividend> <earnings>0.46</earnings> <consumer_price_index> 9.61 </consumer_price_index> <long_interest_rate> 3.66 </long_interest_rate> <real_price> 165.09 </real_price> <real_dividend> 7.67 </real_dividend> <real_earnings> 11.98 </real_earnings> <pe10> 18.12 </pe10> </row>
+<row _id="row 8">
+<date> 1881-08-01 </date> <sp500> 6.2 </sp500> <dividend> 0.3 </dividend> <earnings>0.46</earnings> <consumer_price_index> 9.8 </consumer_price_index> <long_interest_rate> 3.65 </long_interest_rate> <real_price> 158.06 </real_price> <real_dividend> 7.65 </real_dividend> <real_earnings> 11.64 </real_earnings> <pe10> 17.29 </pe10> </row>
+<row _id="row 9">
+<date> 1881-09-01 </date> <sp500> 6.25 </sp500> <dividend> 0.3 </dividend> <earnings>0.45</earnings> <consumer_price_index> 10.18 </consumer_price_index> <long_interest_rate> 3.65 </long_interest_rate> <real_price> 153.38 </real_price> <real_dividend> 7.48 </real_dividend> <real_earnings> 11.1 </real_earnings> <pe10> 16.72 </pe10> </row>
+<row _id="row 10">
+<date> 1881-10-01 </date> <sp500> 6.15 </sp500> <dividend> 0.31 </dividend> <earnings>0.45</earnings> <consumer_price_index> 10.28 </consumer_price_index> <long_interest_rate> 3.64 </long_interest_rate> <real_price> 149.53 </real_price> <real_dividend> 7.54 </real_dividend> <real_earnings> 10.9 </real_earnings> <pe10> 16.26 </pe10> </row>
+</row>
+</response>
